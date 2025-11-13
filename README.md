@@ -7,11 +7,13 @@
 
 **A new paradigm of review where agents autonomously explore, reason, and provide feedback through executable code actions**
 
+</div>
+
 Focus on:
 - How agents think and act during review
 - Autonomous decision-making in review process
 - Novel review strategies and methodologies
-</div>
+
 
 ## 📋 Table of Contents
 
