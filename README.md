@@ -402,14 +402,7 @@ Contributions welcome! Please:
 - Tools with executable code capabilities
 - Guideline formalization techniques
 - Domain-specific review applications
-# Forks数量
-[![GitHub forks](https://img.shields.io/github/forks/你的用户名/awesome-deep-review?style=social)](https://github.com/你的用户名/awesome-deep-review/network)
 
-# Issues数量
-![GitHub issues](https://img.shields.io/github/issues/你的用户名/awesome-deep-review)
-
-# 最后提交时间
-![GitHub last commit](https://img.shields.io/github/last-commit/你的用户名/awesome-deep-review)
 ---
 
 ## 📜 License
