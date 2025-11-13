@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Agentic Review
+# Awesome Deep Review
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
