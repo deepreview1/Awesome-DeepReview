@@ -1,5 +1,3 @@
-# Awesome-DeepReview
-🎯 Curated papers and resources on AI reasoning, thinking code, and automated review systems
 
 <div align="center">
 
@@ -8,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-**Curated collection of papers and resources on AI Reasoning Models, Thinking Code, and Automated Review Systems**
+**🎯 Curated collection of papers and resources on AI Reasoning Models, Thinking Code, and Automated Review Systems**
 
 </div>
 
