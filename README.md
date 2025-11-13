@@ -411,6 +411,6 @@ Contributions welcome! Please:
 
 ---
 
-**Maintained by [@your-username](https://github.com/your-username)** | **Last Updated: November 2024**
+**Maintained by [@deepreview1](https://github.com/deepreview1)** | **Last Updated: November 2025**
 
 **If you find this useful, please ⭐ star this repo!**
