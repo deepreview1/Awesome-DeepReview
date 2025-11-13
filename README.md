@@ -5,8 +5,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-**Code-Action Based Agents for Automated Review in Medical, Software, and Academic Domains**
+**A new paradigm of review where agents autonomously explore, reason, and provide feedback through executable code actions**
 
+Focus on:
+- How agents think and act during review
+- Autonomous decision-making in review process
+- Novel review strategies and methodologies
 </div>
 
 ## 📋 Table of Contents
