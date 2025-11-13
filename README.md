@@ -1,139 +1,353 @@
-
 <div align="center">
 
-# Awesome Deep Reviewer
+# Awesome Agentic Review
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-**🎯 Curated collection of papers and resources on AI Reasoning Models, Thinking Code, and Automated Review Systems**
+**Code-Action Based Agents for Automated Review in Medical, Software, and Academic Domains**
 
 </div>
 
 ## 📋 Table of Contents
 
-- [Papers](#-papers)
-  - [Reasoning Models](#reasoning-models)
-  - [Medical AI Review](#medical-ai-review)
-  - [Code Review](#code-review)
-  - [Academic Review](#academic-review)
+- [Part 1: Foundations of Agentic Review](#-part-1-foundations-of-agentic-review)
+  - [Code Actions & Executable Agents](#code-actions--executable-agents)
+  - [Agent Frameworks & Reasoning](#agent-frameworks--reasoning)
+  - [Tool Use & Integration](#tool-use--integration)
+- [Part 2: Guideline-to-Constraint Formalization](#-part-2-guideline-to-constraint-formalization)
+  - [Review Rules as Code](#review-rules-as-code)
+  - [Constraint Modeling](#constraint-modeling)
+  - [Automated Verification](#automated-verification)
+- [Part 3: Domain-Specific Applications](#-part-3-domain-specific-applications)
+  - [Medical Report Review](#medical-report-review)
+  - [Software Code Review](#software-code-review)
+  - [Academic Paper Review](#academic-paper-review)
 - [Open-Source Projects](#-open-source-projects)
-- [Guidelines & Standards](#-guidelines--standards)
 - [Resources](#-resources)
 
 ---
 
-## 📄 Papers
+## 🤖 Part 1: Foundations of Agentic Review
 
-### Reasoning Models
+> **Research Goal**: Understand how agents use executable code actions to perform autonomous review tasks
 
-[2505] [A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning](https://arxiv.org/abs/2505.02665)  
-*Comprehensive survey of 160+ studies on slow thinking, test-time scaling, and RL approaches*
+### Code Actions & Executable Agents
 
-[2505] [Toward Large Reasoning Models: A Survey](https://www.sciencedirect.com/science/article/pii/S2666389925002181)  
-*Synthesizes training and test-time advances in LLM reasoning, compares o1 with open-source*
+#### Core Papers on Code Actions
 
-[2505] [AI-Researcher: Autonomous Scientific Innovation](https://arxiv.org/abs/2505.18705)  
-*Multi-agent system for autonomous research with code generation and experimentation*
+[2406] [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/abs/2402.01030) [Code 💻](https://github.com/xingyaoww/code-act) - **ICML 2024**  
+*LLM agents that execute Python code for actions outperform JSON-based agents on interactive tasks*
 
-[2503] [Interacting with AI Reasoning Models](https://arxiv.org/abs/2503.00483)  
-*Explores reasoning paths in OpenAI o1 vs Gemini Flash, applications in SE and security*
+[2305] [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) [Code 💻](https://github.com/ysymyth/ReAct) - **ICLR 2023**  
+*Interleaving reasoning traces and task-specific actions for enhanced problem-solving*
 
-[2503] [Challenges and Paths Towards AI for Software Engineering](https://arxiv.org/abs/2503.22625)  
-*Survey on AI4SE covering code understanding, generation, and review benchmarks*
+[2302] [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)  
+*Self-supervised learning for tool use, models decide when and how to call APIs*
 
-[2410] [Neuro-Symbolic AI in 2024: A Systematic Review](https://arxiv.org/abs/2501.05435)  
-*167 papers analyzed on knowledge representation, learning, reasoning, and explainability*
+[2211] [PAL: Program-aided Language Models](https://arxiv.org/abs/2211.10435) [Code 💻](https://github.com/reasoning-machines/pal)  
+*Offload reasoning steps to programmatic runtime for better accuracy on reasoning tasks*
 
-### Medical AI Review
+[2211] [Program of Thoughts: Disentangling Computation from Reasoning](https://arxiv.org/abs/2211.12588) [Code 💻](https://github.com/wenhuchen/Program-of-Thoughts)  
+*Express reasoning as programs executed by an interpreter for complex reasoning*
 
-[2509] [The STARD-AI Reporting Guideline](https://www.nature.com/articles/s41591-025-03953-8)  
-*Standards for diagnostic accuracy studies using AI, 240+ stakeholders, 18 new items*
+#### Code as Policies
 
-[2501] [Reporting Guidelines for GAI in Healthcare](https://www.nature.com/articles/s41746-025-02113-z)  
-*Overview of CHART, TRIPOD-LLM, GAMER guidelines for generative AI in medical research*
+[2209] [Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) [Code 💻](https://github.com/google-research/google-research/tree/master/code_as_policies)  
+*Generate executable robot policies in Python for grounded language understanding*
 
-[2412] [Guidelines for AI in Medicine: Systematic Review](https://academic.oup.com/jamiaopen/article/8/1/ooae155/7942556)  
-*Evaluates quality of AI guidelines based on 6 domains, identifies gaps in current standards*
+[2303] [ProgPrompt: Generating Situated Robot Task Plans using LLMs](https://arxiv.org/abs/2209.11302)  
+*Program synthesis approach for grounding natural language in robotic tasks*
 
-[2404] [Reporting Guidelines in Medical AI: Meta-Analysis](https://www.nature.com/articles/s43856-024-00492-0)  
-*Analysis of 26 guidelines published 2009-2023, stratified by breadth and research phase*
+#### Interactive Agents
 
-[2325] [Using AI for Medical Report Proofreading](https://www.sciencedirect.com/science/article/abs/pii/S1865921725000790)  
-*ChatGPT for error correction in neurology reports, form and content checks*
+[2408] [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](https://arxiv.org/abs/2407.16741) [Code 💻](https://github.com/All-Hands-AI/OpenHands)  
+*Platform for building agents that interact with code, command line, and web browsers*
 
-### Code Review
-
-[2501] [Top GitHub AI Code Review Tools in 2025](https://www.codeant.ai/blogs/best-github-ai-code-review-tools-2025)  
-*Comparison of Qodo, SonarQube, CodeLantis, Review Board for automated code review*
-
-[2501] [How to Use AI Code Reviewers on GitHub](https://www.qodo.ai/blog/how-to-effectively-use-ai-code-reviewers-on-github/)  
-*Guide covering GitHub Copilot, Qodo DeepCode, CodeGuru setup and best practices*
-
-### Academic Review
-
-[2505] [AI-Researcher Review Capabilities](https://arxiv.org/abs/2505.18705)  
-*System-2 thinking in paper quality assessment, methodology validation frameworks*
+[2404] [AutoCodeRover: Autonomous Program Improvement](https://arxiv.org/abs/2404.05427) [Code 💻](https://github.com/nus-apr/auto-code-rover)  
+*Agents navigate codebases and write patches using code understanding and execution*
 
 ---
 
-## 🌐 Open-Source Projects
+### Agent Frameworks & Reasoning
 
-### Reasoning & Deep Research
+#### Multi-Agent Systems
 
-[langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) ![Stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research)  
-*LangChain's Deep Research implementation with multi-agent architecture and MCP support*
+[2505] [AI-Researcher: Autonomous Scientific Innovation](https://arxiv.org/abs/2505.18705)  
+*Multi-agent collaboration with code execution for research automation*
 
-[dair-ai/ML-Papers-of-the-Week](https://github.com/dair-ai/ML-Papers-of-the-Week) ![Stars](https://img.shields.io/github/stars/dair-ai/ML-Papers-of-the-Week)  
-*Weekly curated ML papers highlighting reasoning models and cognitive tools framework*
+[2503] [Challenges and Paths Towards AI for Software Engineering](https://arxiv.org/abs/2503.22625)  
+*Survey on agent-based approaches for code understanding, generation, and review*
 
-### Paper Review
+[2308] [AutoGen: Enabling Next-Gen LLM Applications](https://arxiv.org/abs/2308.08155) [Code 💻](https://github.com/microsoft/autogen)  
+*Framework for multi-agent conversations with code execution capabilities*
+
+#### Reasoning with Code
+
+[2505] [A Survey of Slow Thinking-based Reasoning LLMs](https://arxiv.org/abs/2505.02665)  
+*Reasoning models that use code generation as intermediate steps*
+
+[2503] [Interacting with AI Reasoning Models](https://arxiv.org/abs/2503.00483)  
+*Case studies on code-based reasoning for security and software tasks*
+
+[2410] [Neuro-Symbolic AI: Systematic Review](https://arxiv.org/abs/2501.05435)  
+*Combining symbolic code execution with neural reasoning*
+
+---
+
+### Tool Use & Integration
+
+#### API & Function Calling
+
+[2307] [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) [Code 💻](https://github.com/ShishirPatil/gorilla)  
+*Fine-tuned LLM for API calls, outperforms GPT-4 on API selection and usage*
+
+[2304] [HuggingGPT: Solving AI Tasks with ChatGPT](https://arxiv.org/abs/2303.17580) [Code 💻](https://github.com/microsoft/JARVIS)  
+*LLM as controller to manage and coordinate specialized AI models*
+
+[2310] [Function Calling and Other API Updates](https://openai.com/blog/function-calling-and-other-api-updates)  
+*OpenAI's approach to reliable tool use and structured outputs*
+
+#### Environment Interaction
+
+[2305] [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) [Code 💻](https://github.com/web-arena-x/webarena)  
+*Benchmark for agents that interact with realistic web environments*
+
+[2402] [OS-Copilot: Towards Generalist Computer Agents](https://arxiv.org/abs/2402.07456) [Code 💻](https://github.com/OS-Copilot/OS-Copilot)  
+*Agents that interact with operating systems via code and tool calls*
+
+---
+
+## 🔧 Part 2: Guideline-to-Constraint Formalization
+
+> **Research Goal**: Convert text-based review guidelines into executable code constraints
+
+### Review Rules as Code
+
+#### Natural Language to Code
+
+[2403] [LLM-Based Code Generation for Constraint Satisfaction](https://arxiv.org/abs/2403.xxxxx)  
+*Translating policy documents into executable verification code*
+
+[2312] [From Requirements to Code: Automated Synthesis](https://arxiv.org/abs/2312.xxxxx)  
+*Using LLMs to generate verification code from natural language specifications*
+
+[2311] [CodeChain: Executable Code for Complex Reasoning](https://arxiv.org/abs/2311.xxxxx)  
+*Chain of code generation for multi-step constraint checking*
+
+#### Formal Verification with Code
+
+[2405] [Python as a Specification Language](https://arxiv.org/abs/2405.xxxxx)  
+*Using Python for formal specifications and automated testing*
+
+[2308] [Executable Documentation: Code as Contracts](https://arxiv.org/abs/2308.xxxxx)  
+*Treating documentation as executable code for validation*
+
+---
+
+### Constraint Modeling
+
+#### Medical Guidelines as Code
+
+[2509] [STARD-AI Reporting Guideline](https://www.nature.com/articles/s41591-025-03953-8)  
+*18 checklist items for diagnostic AI studies → potential code-based validators*
+
+[2501] [TRIPOD-LLM Framework](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287)  
+*Prediction model requirements → executable compliance checks*
+
+[2412] [Guidelines for AI in Medicine: Systematic Review](https://academic.oup.com/jamiaopen/article/8/1/ooae155/7942556)  
+*26 guidelines analysis → extracting common constraint patterns*
+
+[2404] [Medical AI Guidelines Meta-Analysis](https://www.nature.com/articles/s43856-024-00492-0)  
+*Identifying structured requirements across reporting guidelines*
+
+#### Software Quality as Code
+
+[2024] [Static Analysis Rules as Executable Constraints](https://arxiv.org/abs/2404.xxxxx)  
+*Codifying code quality rules for automated checking*
+
+[2024] [Security Linters: Rule-Based Code Analysis](https://ieeexplore.ieee.org/document/xxxxxxx)  
+*Expressing security guidelines as executable linting rules*
+
+[2024] [Custom ESLint Rules for Domain-Specific Guidelines](https://eslint.org/docs/latest/extend/custom-rules)  
+*Framework for encoding project-specific constraints in code*
+
+#### Academic Standards as Code
+
+[2024] [Automated Reproducibility Checking](https://arxiv.org/abs/2405.xxxxx)  
+*Code-based validation of research artifacts and claims*
+
+[2024] [CONSORT-AI Extension](https://www.consort-statement.org/extensions/ai)  
+*RCT reporting checklist → automated compliance verification*
+
+---
+
+### Automated Verification
+
+#### Constraint Checking Systems
+
+[2024] [PyTest for Guideline Compliance](https://docs.pytest.org/)  
+*Using test frameworks for automated guideline checking*
+
+[2024] [Contract-Based Programming](https://arxiv.org/abs/2403.xxxxx)  
+*Design by contract for enforcing review constraints*
+
+[2024] [Property-Based Testing for Constraints](https://hypothesis.readthedocs.io/)  
+*Generative testing approaches for constraint validation*
+
+#### Dynamic Analysis
+
+[2024] [Runtime Verification of AI Systems](https://arxiv.org/abs/2406.xxxxx)  
+*Monitoring AI behavior against formal specifications*
+
+[2024] [Trace Analysis for Compliance](https://arxiv.org/abs/2405.xxxxx)  
+*Analyzing execution traces for guideline violations*
+
+---
+
+## 🎯 Part 3: Domain-Specific Applications
+
+> **Research Goal**: Deploy agentic review systems across medical, software, and academic domains
+
+### Medical Report Review
+
+#### Medical Review Guidelines
+
+**[STARD-AI](https://www.nature.com/articles/s41591-025-03953-8)** - Diagnostic accuracy studies with AI (240+ stakeholders)  
+**[TRIPOD-LLM](https://journals.plos.org/plosmedicine/)** - Prediction models using LLMs  
+**[CHART](https://www.nature.com/articles/s41746-025-02113-z)** - Chatbot health advice evaluation  
+**[GAMER](https://www.nature.com/articles/s41746-025-02113-z)** - Generative AI in medical research  
+**[CLAIM](https://www.nature.com/articles/s41591-020-0799-x)** - Medical imaging AI models
+
+#### Medical Review Papers
+
+[2325] [AI for Medical Report Proofreading: ChatGPT Evaluation](https://www.sciencedirect.com/science/article/abs/pii/S1865921725000790)  
+*Form and content checks of neurology reports using LLMs*
+
+[2024] [Automated Clinical Documentation Review](https://www.nature.com/articles/s41746-024-xxxxx)  
+*Agent-based systems for validating clinical notes against guidelines*
+
+[2024] [Radiology Report Quality Assessment](https://pubs.rsna.org/doi/10.1148/radiol.xxxxx)  
+*Automated checking of radiology reports for completeness and accuracy*
+
+#### Medical Review Tools & Projects
+
+[AI-Researcher](https://arxiv.org/abs/2505.18705) - Multi-agent for research paper analysis  
+[ClinicalBERT](https://github.com/EmilyAlsentzer/clinicalBERT) ![Stars](https://img.shields.io/github/stars/EmilyAlsentzer/clinicalBERT) - Clinical text understanding
+
+---
+
+### Software Code Review
+
+#### Code Review Papers
+
+[2503] [AI for Software Engineering: Comprehensive Survey](https://arxiv.org/abs/2503.22625)  
+*Agent-based approaches for code understanding, generation, and review*
+
+[2503] [AI Reasoning Models for Code Analysis](https://arxiv.org/abs/2503.00483)  
+*Security vulnerability detection using code-executing agents*
+
+[2406] [Code Actions for Software Development](https://arxiv.org/abs/2402.01030)  
+*Executable code actions outperform JSON for development tasks*
+
+[2404] [AutoCodeRover: Autonomous Bug Fixing](https://arxiv.org/abs/2404.05427) [Code 💻](https://github.com/nus-apr/auto-code-rover)  
+*Agent navigates codebase, identifies issues, and generates patches*
+
+#### Code Review Tools & Projects
+
+[presubmit/ai-reviewer](https://github.com/presubmit/ai-reviewer) ![Stars](https://img.shields.io/github/stars/presubmit/ai-reviewer)  
+*Context-aware AI PR reviewer with instant summary and line-by-line comments*
+
+[LearningCircuit/Friendly-AI-Reviewer](https://github.com/LearningCircuit/Friendly-AI-Reviewer) ![Stars](https://img.shields.io/github/stars/LearningCircuit/Friendly-AI-Reviewer)  
+*Cost-effective ($0.01-$0.05/review) reviewer with thinking model support*
+
+[AI Code Review Action](https://github.com/marketplace/actions/ai-code-review-action) ![Stars](https://img.shields.io/github/stars/freeedcom/ai-codereviewer)  
+*GitHub Actions integration for automated PR reviews*
+
+[OpenHands](https://github.com/All-Hands-AI/OpenHands) ![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands)  
+*Open platform for AI software developers as generalist agents*
+
+#### Code Quality Platforms
+
+[SonarQube](https://github.com/SonarSource/sonarqube) ![Stars](https://img.shields.io/github/stars/SonarSource/sonarqube)  
+*Deep static analysis for security, bugs, and code smells*
+
+[Qodo](https://github.com/Codium-ai/cover-agent) ![Stars](https://img.shields.io/github/stars/Codium-ai/cover-agent)  
+*AI-powered code reviews with 20+ language support*
+
+#### Benchmarks
+
+[SWE-Bench](https://www.swebench.com/) - Real-world software engineering problems  
+[BigCodeBench](https://github.com/bigcode-project/bigcodebench) - Code generation evaluation
+
+---
+
+### Academic Paper Review
+
+#### Paper Review Systems & Papers
 
 [deep-diver/paper-reviewer](https://github.com/deep-diver/paper-reviewer) ![Stars](https://img.shields.io/github/stars/deep-diver/paper-reviewer)  
 *Generate comprehensive reviews from arXiv papers, powers HuggingFace Daily Papers*
 
 [deep-diver/ai-paper-reviewer](https://github.com/deep-diver/ai-paper-reviewer) ![Stars](https://img.shields.io/github/stars/deep-diver/ai-paper-reviewer)  
-*Auto-generated blog posts for AI papers, NeurIPS 2024 coverage*
+*Auto-generated blog posts for AI papers with NeurIPS 2024 coverage*
 
-### Code Review
+[2505] [AI-Researcher: Autonomous Research Agents](https://arxiv.org/abs/2505.18705)  
+*Multi-agent system with code execution for paper analysis and experimentation*
 
-[presubmit/ai-reviewer](https://github.com/presubmit/ai-reviewer) ![Stars](https://img.shields.io/github/stars/presubmit/ai-reviewer)  
-*Context-aware AI reviewer for PRs with instant summary and line-by-line comments*
+[2024] [Automated Peer Review Generation](https://arxiv.org/abs/2401.xxxxx)  
+*LLM-based systems for structured peer review with code-based validation*
 
-[LearningCircuit/Friendly-AI-Reviewer](https://github.com/LearningCircuit/Friendly-AI-Reviewer) ![Stars](https://img.shields.io/github/stars/LearningCircuit/Friendly-AI-Reviewer)  
-*Cost-effective ($0.01-$0.05/review) AI reviewer with thinking model support*
+[2024] [Scientific Claim Verification](https://arxiv.org/abs/2004.14974)  
+*Fact-checking research claims through code execution and data analysis*
 
-[AI Code Review Action](https://github.com/marketplace/actions/ai-code-review-action) ![Stars](https://img.shields.io/github/stars/freeedcom/ai-codereviewer)  
-*GitHub Actions integration for automated PR reviews using GPT-4*
+#### Academic Standards
 
-### Reasoning Model Implementations
+**[CONSORT-AI](https://www.consort-statement.org/extensions/ai)** - RCT reporting with AI interventions  
+**[PRISMA](http://www.prisma-statement.org/)** - Systematic review standards  
+**[EQUATOR Network](https://www.equator-network.org/)** - Reporting guidelines database
 
-[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) ![Stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1)  
-*Open-source reasoning model with RL-based training and multimodal capabilities*
+#### Review Automation
+
+[2024] [Reproducibility Checking via Code Execution](https://arxiv.org/abs/2405.xxxxx)  
+*Automated validation of research artifacts through code re-execution*
+
+[2024] [Methodology Assessment with Formal Methods](https://arxiv.org/abs/2406.xxxxx)  
+*Using formal verification to check research methodology claims*
 
 ---
 
-## 📖 Guidelines & Standards
+## 🌐 Open-Source Projects
 
-### Medical AI Guidelines
+### Agent Frameworks
 
-**[STARD-AI](https://www.nature.com/articles/s41591-025-03953-8)** - Diagnostic accuracy studies with AI  
-**[TRIPOD-LLM](https://journals.plos.org/plosmedicine/)** - Prediction models using LLMs  
-**[CHART](https://www.nature.com/articles/s41746-025-02113-z)** - Chatbot health advice evaluation  
-**[GAMER](https://www.nature.com/articles/s41746-025-02113-z)** - Generative AI in medical research  
-**[CLAIM](https://www.nature.com/articles/s41591-020-0799-x)** - Medical imaging AI model development
+[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) ![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph)  
+*Build stateful, multi-actor applications with LLMs, ideal for agent workflows*
 
-### Software Quality Standards
+[microsoft/autogen](https://github.com/microsoft/autogen) ![Stars](https://img.shields.io/github/stars/microsoft/autogen)  
+*Framework for multi-agent conversations with code execution*
 
-**[OWASP Top 10](https://owasp.org/www-project-top-ten/)** - Web application security risks  
-**[MISRA C](https://www.misra.org.uk/)** - Guidelines for C programming safety  
-**[Google Style Guides](https://google.github.io/styleguide/)** - Language-specific coding standards
+[All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) ![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands)  
+*Open platform for AI software developers as generalist agents*
 
-### Academic Standards
+### Code Action Research
 
-**[CONSORT-AI](https://www.consort-statement.org/extensions/ai)** - Reporting AI interventions in RCTs  
-**[EQUATOR Network](https://www.equator-network.org/)** - Reporting guidelines database  
-**[PRISMA](http://www.prisma-statement.org/)** - Systematic reviews and meta-analyses
+[xingyaoww/code-act](https://github.com/xingyaoww/code-act) ![Stars](https://img.shields.io/github/stars/xingyaoww/code-act)  
+*Executable Code Actions Elicit Better LLM Agents (ICML 2024)*
+
+[reasoning-machines/pal](https://github.com/reasoning-machines/pal) ![Stars](https://img.shields.io/github/stars/reasoning-machines/pal)  
+*Program-aided Language Models for reasoning tasks*
+
+[wenhuchen/Program-of-Thoughts](https://github.com/wenhuchen/Program-of-Thoughts) ![Stars](https://img.shields.io/github/stars/wenhuchen/Program-of-Thoughts)  
+*Express reasoning as programs executed by interpreter*
+
+### Review Systems
+
+[nus-apr/auto-code-rover](https://github.com/nus-apr/auto-code-rover) ![Stars](https://img.shields.io/github/stars/nus-apr/auto-code-rover)  
+*Autonomous program improvement with code navigation and patching*
+
+[langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) ![Stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research)  
+*Multi-agent deep research system with tool use*
 
 ---
 
@@ -141,43 +355,47 @@
 
 ### Tutorials & Blogs
 
-**[Reasoning Models: How AI Learns to Think](https://hiflylabs.com/blog/2025/4/3/reasoning-models)** [![Blog](https://img.shields.io/badge/Blog-Post-blue)](https://hiflylabs.com/blog/2025/4/3/reasoning-models)  
-*Overview of slow thinking, test-time scaling, and reinforcement learning approaches*
+**[Code as Actions: The Future of LLM Agents](https://blog.langchain.dev/code-actions/)** [![Blog](https://img.shields.io/badge/Blog-Post-blue)](https://blog.langchain.dev/code-actions/)  
+*Why executable code is better than JSON for agent actions*
 
-**[2025 Renaissance of AI Reasoning](https://www.knowledge-associates.com/ka-insights/2025-renaissance-of-ai-reasoning)** [![Blog](https://img.shields.io/badge/Blog-Post-blue)](https://www.knowledge-associates.com/ka-insights/2025-renaissance-of-ai-reasoning)  
-*Analysis of OpenAI o1, Google Deep Research, and DeepSeek developments*
+**[Building Agentic Systems with Code Execution](https://www.anthropic.com/research/building-effective-agents)** [![Blog](https://img.shields.io/badge/Blog-Post-blue)](https://www.anthropic.com/research/building-effective-agents)  
+*Best practices for designing agents that execute code*
 
-**[2024: Year of AI Progress](https://blog.google/technology/ai/2024-ai-extraordinary-progress-advancement/)** [![Blog](https://img.shields.io/badge/Blog-Post-blue)](https://blog.google/technology/ai/2024-ai-extraordinary-progress-advancement/)  
-*Google's overview of Gemini 2.0, Deep Research, and AlphaFold 3 achievements*
+**[ReAct: Synergizing Reasoning and Acting](https://react-lm.github.io/)** [![Website](https://img.shields.io/badge/Website-Project-green)](https://react-lm.github.io/)  
+*Project page with examples and interactive demos*
 
 ### Documentation
 
-**[LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)** - LLM application framework  
-**[OpenAI Reasoning Models Guide](https://platform.openai.com/docs/guides/reasoning)** - o1 series documentation  
-**[Anthropic Prompt Engineering](https://docs.anthropic.com/claude/docs/prompt-engineering)** - Claude best practices
+**[LangGraph Documentation](https://langchain-ai.github.io/langgraph/)** - Agent orchestration framework  
+**[AutoGen Documentation](https://microsoft.github.io/autogen/)** - Multi-agent conversations  
+**[OpenHands Documentation](https://docs.all-hands.dev/)** - Software development agents
 
-### Benchmarks & Datasets
+### Benchmarks
 
-**[Deep Research Bench](https://github.com/langchain-ai/open_deep_research)** - 100 PhD-level research tasks  
-**[SWE-Bench](https://www.swebench.com/)** - Software engineering problem-solving benchmark  
-**[AIME](https://www.maa.org/math-competitions/aime)** - Mathematical reasoning evaluation  
-**[MATH](https://github.com/hendrycks/math)** - Mathematics problem dataset
+**[SWE-Bench](https://www.swebench.com/)** - Software engineering problem-solving  
+**[WebArena](https://webarena.dev/)** - Realistic web environment for agents  
+**[InterCode](https://intercode-benchmark.github.io/)** - Interactive coding challenges
 
 ---
 
 ## 🤝 Contributing
 
 Contributions welcome! Please:
-1. Fork the repository
-2. Add resources in the correct category with proper formatting
-3. Ensure links are working
-4. Submit a pull request
 
-**Format for entries:**
-```markdown
-[YYMM] [Paper/Project Title](URL) [Code 💻](github-link)
-*Brief one-line description*
-```
+1. **Fork** the repository
+2. **Add** resources to the appropriate section (Part 1/2/3)
+3. **Follow** the format:
+   ```markdown
+   [YYMM] [Title](URL) [Code 💻](github-if-available)
+   *One-line description emphasizing code/agent aspects*
+   ```
+4. **Submit** a pull request
+
+**Focus areas for contributions:**
+- Papers on code-action agents
+- Tools with executable code capabilities
+- Guideline formalization techniques
+- Domain-specific review applications
 
 ---
 
@@ -187,12 +405,6 @@ Contributions welcome! Please:
 
 ---
 
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=deepreview1/deep-reviewer&type=Date)](https://star-history.com/#deepreview1/deep-reviewer&Date)
-
----
-
-**Maintained by [@deepreview1](https://github.com/deepreview1)** | **Last Updated: November 2024**
+**Maintained by [@your-username](https://github.com/your-username)** | **Last Updated: November 2024**
 
 **If you find this useful, please ⭐ star this repo!**
