@@ -11,11 +11,7 @@
 
 </div>
 
-Focus on:
-- Agent-based review systems and methodologies
-- Automated document analysis and verification
-- Domain-specific applications and tools
-- Constraint-based evaluation systems
+
 
 ## 📋 Table of Contents
 
@@ -37,7 +33,7 @@ Focus on:
   - [Multi-Agent Collaborative Review](#multi-agent-collaborative-review)
   - [Review Quality Assessment](#review-quality-assessment)
   - [Scientific Claim Verification](#scientific-claim-verification)
-- [Legal Document Review](#-legal-document-review)
+- [Contract Review](#-contract-review)
   - [Contract Analysis Methods](#contract-analysis-methods)
   - [Legal NLP Datasets](#legal-nlp-datasets)
   - [Explainable Legal Classification](#explainable-legal-classification)
@@ -129,6 +125,58 @@ Key capabilities:
 
 [2507] [FUTURE-AI: International Framework for Trustworthy Medical AI](https://www.nature.com/articles/s41591-025-03951-w) - **Nature Medicine 2025**  
 *30 recommendations across fairness, universality, traceability, usability, robustness, and explainability from 400+ stakeholders*
+
+[2505] [FDA AI Medical Device Guidance: Lifecycle Management](https://www.fda.gov/regulatory-information/search-fda-guidance-documents) - **FDA 2025**  
+*Comprehensive framework requiring Algorithm Change Protocols, predetermined change control plans, and impact assessment*
+
+### Software Code Review
+
+#### Code Review Systems & Agents
+
+[2511] [GitHub Copilot Code Review in Production](https://github.blog/changelog/2024-11-01-github-copilot-code-review)  
+*Production deployment serving 1M+ developers, 80% more comments per PR, 27% adoption by reviewers*
+
+[2503] [AI for Software Engineering: Comprehensive Survey](https://arxiv.org/abs/2503.22625)  
+*Agent-based approaches for code understanding, generation, and review with multi-agent coordination*
+
+[2503] [AI Reasoning Models for Code Analysis](https://arxiv.org/abs/2503.00483)  
+*Security vulnerability detection using code-executing agents with formal verification*
+
+[2404] [AutoCodeRover: Autonomous Bug Fixing](https://arxiv.org/abs/2404.05427) [Code 💻](https://github.com/nus-apr/auto-code-rover)  
+*Agent navigates codebase, identifies issues, and generates patches autonomously*
+
+#### Security & Vulnerability Detection
+
+[2503] [Adversarial Attacks on Multi-Agent Code Review](https://arxiv.org/abs/2503.12188)  
+*Demonstrates 58-90% attack success rates on multi-agent frameworks, critical for production security*
+
+#### Code Review Tools & Projects
+
+[presubmit/ai-reviewer](https://github.com/presubmit/ai-reviewer) ![Stars](https://img.shields.io/github/stars/presubmit/ai-reviewer)  
+*Context-aware AI PR reviewer with instant summary and line-by-line comments*
+
+[LearningCircuit/Friendly-AI-Reviewer](https://github.com/LearningCircuit/Friendly-AI-Reviewer) ![Stars](https://img.shields.io/github/stars/LearningCircuit/Friendly-AI-Reviewer)  
+*Cost-effective ($0.01-$0.05/review) reviewer with thinking model support*
+
+[AI Code Review Action](https://github.com/marketplace/actions/ai-code-review-action) ![Stars](https://img.shields.io/github/stars/freeedcom/ai-codereviewer)  
+*GitHub Actions integration for automated PR reviews*
+
+#### Static Analysis Platforms
+
+[SonarQube](https://github.com/SonarSource/sonarqube) ![Stars](https://img.shields.io/github/stars/SonarSource/sonarqube)  
+*Deep static analysis for security, bugs, and code smells with 5000+ rules*
+
+[Semgrep](https://github.com/semgrep/semgrep) ![Stars](https://img.shields.io/github/stars/semgrep/semgrep)  
+*Fast, customizable static analysis with rules as code in YAML format*
+
+[Qodo](https://github.com/Codium-ai/cover-agent) ![Stars](https://img.shields.io/github/stars/Codium-ai/cover-agent)  
+*AI-powered code reviews with 20+ language support*
+
+#### Code Benchmarks
+
+[SWE-Bench](https://www.swebench.com/) - Real-world software engineering problems  
+[BigCodeBench](https://github.com/bigcode-project/bigcodebench) - Code generation evaluation  
+[HumanEval](https://github.com/openai/human-eval) - Programming problem solving
 
 ---
 
@@ -238,71 +286,111 @@ Key capabilities:
 ---
 
 ## 📚 Academic Paper Review
+> **Research Goal**: Automated peer review systems using large language models for scholarly publications
 
-> **Research Goal**: Automated peer review systems and quality assessment for scholarly publications
-
-### Automated Review Systems
+### Survey Papers
 
 [2501] [Large Language Models for Automated Scholarly Paper Review: A Survey](https://arxiv.org/abs/2501.10326)  
-*Comprehensive survey of LLM-based automated scholarly paper review systems and methodologies*
-
-[2412] [OpenReviewer: A Specialized Large Language Model for Generating Critical Scientific Paper Reviews](https://arxiv.org/abs/2412.11948)  
-*Specialized LLM trained for generating comprehensive and critical scientific paper reviews*
-
-[2401] [MARG: Multi-Agent Review Generation for Scientific Papers](https://arxiv.org/abs/2401.04259)  
-*Multi-agent system for collaborative paper review generation with role-based specialization*
-
-[1804] [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635)  
-*First large-scale peer review dataset with 14K papers and review comments, enabling supervised learning approaches*
-
-### Multi-Agent Collaborative Review
-
-[2503] [DeepReview: Improving LLM-based Paper Review with Human-like Deep Thinking Process](https://arxiv.org/abs/2503.08569)  
-*Human-like deep thinking process for improving LLM-based paper review quality and depth*
-
-[2503] [ReviewAgents: Bridging the Gap Between Human and AI-Generated Paper Reviews](https://arxiv.org/abs/2503.08506)  
-*Multi-agent system designed to bridge the gap between human expertise and AI-generated reviews*
-
-[2511] [ICLR 2025 LLM Feedback Integration Study](https://arxiv.org/abs/2511.xxxxx)  
-*20,000+ peer reviews enhanced with LLM feedback agents, 27% reviewer adoption rate in production conference*
-
-[2505] [AI-Researcher: Autonomous Research Agents](https://arxiv.org/abs/2505.18705)  
-*Multi-agent system with code execution for paper analysis, experimentation, and research automation*
-
-### Review Quality Assessment
-
-[2506] [Can Large Language Models Be Trusted Paper Reviewers? A Feasibility Study](https://arxiv.org/abs/2506.17311)  
-*Comprehensive evaluation of LLM reliability as paper reviewers across multiple dimensions*
-
-[2509] [Unveiling the Merits and Defects of LLMs in Automatic Review Generation for Scientific Papers](https://arxiv.org/abs/2509.19326)  
-*Analysis of strengths and weaknesses in LLM-generated scientific paper reviews*
-
-[2406] [RelevAI-Reviewer: A Benchmark on AI Reviewers for Survey Paper Relevance](https://arxiv.org/abs/2406.10294)  
-*Benchmark for evaluating AI reviewers specifically on survey paper relevance assessment*
-
-[2306] [ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing](https://arxiv.org/abs/2306.00622)  
-*Exploratory analysis of using GPT models for academic paper reviewing with human evaluation*
-
-[2505] [Reviewing Scientific Papers for Critical Problems With Reasoning LLMs: Baseline Approaches and Automatic Evaluation](https://arxiv.org/abs/2505.23824)  
-*Baseline approaches and evaluation metrics for identifying critical problems in scientific papers*
-
-[2406] [LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing](https://arxiv.org/abs/2406.16253)  
-*LLM assistance for NLP researchers in paper critique and meta-reviewing processes*
-
-### Scientific Claim Verification
-
-[2506] [MuSciClaims: Multimodal Scientific Claim Verification](https://arxiv.org/abs/2506.04585)  
-*Benchmark requiring assessment against information-rich figures, best models achieving 0.72 F1 showing need for improvement*
-
-[2505] [CLEF-2025 CheckThat! Lab Task 4b](https://link.springer.com/)  
-*Scientific article retrieval for social media claim verification, teams achieving MRR@5 up to 0.68*
-
-[2501] [CORE-Bench: Computational Reproducibility Benchmark](https://openreview.net/forum?id=5WSVzHMsQH) - **TMLR 2025**  
-*270 tasks from 90 papers across CS, social science, and medicine - best agents achieving only 21% accuracy on hard tasks*
+*Comprehensive survey of LLM-based automated scholarly paper review systems, methodologies, and current state of the field*
 
 ---
 
-## ⚖️ Legal Document Review
+### Methods
+
+[2505] [Reviewing Scientific Papers for Critical Problems With Reasoning LLMs: Baseline Approaches and Automatic Evaluation](https://arxiv.org/abs/2505.23824)  
+*Baseline approaches using reasoning LLMs as manuscript quality checkers, with automatic evaluation framework for identifying critical errors*
+
+[2503] [DeepReview: Improving LLM-based Paper Review with Human-like Deep Thinking Process](https://arxiv.org/abs/2503.08569)  
+*Human-like deep thinking process for improving LLM-based paper review quality, depth, and critical analysis*
+
+[2503] [ReviewAgents: Bridging the Gap Between Human and AI-Generated Paper Reviews](https://arxiv.org/abs/2503.08506)  
+*Multi-agent system designed to bridge the gap between human expertise and AI-generated reviews through collaborative intelligence*
+
+[2412] [OpenReviewer: A Specialized Large Language Model for Generating Critical Scientific Paper Reviews](https://arxiv.org/abs/2412.11948)  
+*Specialized LLM trained specifically for generating comprehensive, critical, and actionable scientific paper reviews*
+
+[2406] [LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing](https://arxiv.org/abs/2406.16253)  
+*LLM assistance framework for NLP researchers in paper critique and meta-reviewing processes*
+
+[2401] [MARG: Multi-Agent Review Generation for Scientific Papers](https://arxiv.org/abs/2401.04259)  
+*Multi-agent system for collaborative paper review generation with role-based specialization and debate mechanisms*
+
+---
+
+### Evaluation & Benchmarks
+
+[2506] [Can Large Language Models Be Trusted Paper Reviewers? A Feasibility Study](https://arxiv.org/abs/2506.17311)  
+*Comprehensive feasibility study evaluating LLM reliability and trustworthiness as paper reviewers across multiple dimensions*
+
+[2509] [Unveiling the Merits and Defects of LLMs in Automatic Review Generation for Scientific Papers](https://arxiv.org/abs/2509.19326)  
+*In-depth analysis of strengths and weaknesses in LLM-generated scientific paper reviews, identifying systematic biases*
+
+[2406] [RelevAI-Reviewer: A Benchmark on AI Reviewers for Survey Paper Relevance](https://arxiv.org/abs/2406.10294)  
+*Specialized benchmark for evaluating AI reviewers on survey paper relevance assessment and quality evaluation*
+
+[2306] [ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing](https://arxiv.org/abs/2306.00622)  
+*Exploratory analysis of using GPT models for academic paper reviewing with comprehensive human evaluation*
+
+[1804] [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635)  
+*First large-scale peer review dataset with 14K papers and review comments from ACL/NIPS/ICLR, enabling supervised learning approaches*
+
+---
+
+### Resources & Community
+
+**Key Datasets**  
+- [PeerRead](https://github.com/allenai/PeerRead) - 14K papers with peer review comments (ACL 2018)
+- [ReviewAdvisor](https://github.com/neulab/ReviewAdvisor) - Automated review generation system code
+
+**Academic Events**  
+- AutoReview Workshop @ NeurIPS 2023 - Community forum on automated review systems
+
+**Current Adoption**  
+- ICLR 2024 piloted AI-assisted preliminary review screening
+- Technology best suited for: pre-screening submissions, assisting human reviewers with draft generation
+
+
+---
+
+### Evaluation & Benchmarks
+
+[2506] [Can Large Language Models Be Trusted Paper Reviewers? A Feasibility Study](https://arxiv.org/abs/2506.17311)  
+*Comprehensive feasibility study evaluating LLM reliability and trustworthiness as paper reviewers across multiple dimensions*
+
+[2509] [Unveiling the Merits and Defects of LLMs in Automatic Review Generation for Scientific Papers](https://arxiv.org/abs/2509.19326)  
+*In-depth analysis of strengths and weaknesses in LLM-generated scientific paper reviews, identifying systematic biases*
+
+[2406] [RelevAI-Reviewer: A Benchmark on AI Reviewers for Survey Paper Relevance](https://arxiv.org/abs/2406.10294)  
+*Specialized benchmark for evaluating AI reviewers on survey paper relevance assessment and quality evaluation*
+
+[2306] [ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing](https://arxiv.org/abs/2306.00622)  
+*Exploratory analysis of using GPT models for academic paper reviewing with comprehensive human evaluation*
+
+[1804] [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635)  
+*First large-scale peer review dataset with 14K papers and review comments, enabling supervised learning approaches for review generation*
+
+[ACL 2022] Are Neural Review Generators Reliable?  
+*Analysis revealing systematic biases in neural review generation including generic praise and vague criticism patterns*
+
+[PNAS 2023] Human vs. AI: Bias in Peer Review  
+*Comparative study showing AI review reduces gender/geographic bias but underperforms in novelty assessment compared to humans*
+
+---
+
+### Resources & Tools
+
+**Datasets**  
+- [PeerRead Dataset](https://github.com/allenai/PeerRead) - 14K papers with peer review comments
+
+**Evaluation Tools**  
+- [SciRepEval](https://github.com/) - Scientific review evaluation toolkit for assessing helpfulness, specificity, and fairness
+
+**Workshops**  
+- AutoReview Workshop @ NeurIPS 2023 - Community forum on automated review systems
+
+---
+
+## ⚖️ Contract Review
 
 > **Research Goal**: Automated analysis and review of legal documents for compliance, risk assessment, and contract analysis
 
