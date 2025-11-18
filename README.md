@@ -11,8 +11,6 @@
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [DeepReview Agent](#-deepreview-agent)
@@ -61,13 +59,13 @@ Key capabilities:
 [2202] [TARexp: A Python Framework for Technology-Assisted Review Experiments](https://arxiv.org/abs/2202.11827) [Code 💻](https://github.com/HiTScI-MedInfo/TARexp)  
 *Open source Python framework for conducting experiments on TAR algorithms with declarative workflow representations and state maintenance capabilities*
 
-**Deloitte Argus** - Intelligent Document Review Platform  
+[2024] **Deloitte Argus** - Intelligent Document Review Platform  
 *Commercial platform for large-scale document review and analysis*
 
 [2308] [AutoGen: Enabling Next-Gen LLM Applications](https://arxiv.org/abs/2308.08155) [Code 💻](https://github.com/microsoft/autogen)  
 *Framework for multi-agent conversations with code execution capabilities applicable to document review workflows*
 
-[2408] [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](https://arxiv.org/abs/2407.16741) [Code 💻](https://github.com/All-Hands-AI/OpenHands)  
+[2407] [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](https://arxiv.org/abs/2407.16741) [Code 💻](https://github.com/All-Hands-AI/OpenHands)  
 *Platform for building agents that interact with code, command line, and web browsers for document processing*
 
 ### Spell Checking & Grammar Correction
@@ -115,7 +113,7 @@ Key capabilities:
 [2503] [Challenges and Paths Towards AI for Software Engineering](https://arxiv.org/abs/2503.22625)  
 *Survey on agent-based approaches for code understanding, generation, and review with multi-agent coordination*
 
-[2511] [GitHub Copilot Code Review in Production](https://github.blog/changelog/2024-11-01-github-copilot-code-review)  
+[2411] [GitHub Copilot Code Review in Production](https://github.blog/changelog/2024-11-01-github-copilot-code-review)  
 *Production deployment serving 1M+ developers, 80% more comments per PR, 27% adoption by reviewers*
 
 ### AI Compliance
@@ -133,7 +131,7 @@ Key capabilities:
 
 #### Code Review Systems & Agents
 
-[2511] [GitHub Copilot Code Review in Production](https://github.blog/changelog/2024-11-01-github-copilot-code-review)  
+[2411] [GitHub Copilot Code Review in Production](https://github.blog/changelog/2024-11-01-github-copilot-code-review)  
 *Production deployment serving 1M+ developers, 80% more comments per PR, 27% adoption by reviewers*
 
 [2503] [AI for Software Engineering: Comprehensive Survey](https://arxiv.org/abs/2503.22625)  
@@ -152,31 +150,31 @@ Key capabilities:
 
 #### Code Review Tools & Projects
 
-[presubmit/ai-reviewer](https://github.com/presubmit/ai-reviewer) ![Stars](https://img.shields.io/github/stars/presubmit/ai-reviewer)  
+[2024] [presubmit/ai-reviewer](https://github.com/presubmit/ai-reviewer) ![Stars](https://img.shields.io/github/stars/presubmit/ai-reviewer)  
 *Context-aware AI PR reviewer with instant summary and line-by-line comments*
 
-[LearningCircuit/Friendly-AI-Reviewer](https://github.com/LearningCircuit/Friendly-AI-Reviewer) ![Stars](https://img.shields.io/github/stars/LearningCircuit/Friendly-AI-Reviewer)  
+[2024] [LearningCircuit/Friendly-AI-Reviewer](https://github.com/LearningCircuit/Friendly-AI-Reviewer) ![Stars](https://img.shields.io/github/stars/LearningCircuit/Friendly-AI-Reviewer)  
 *Cost-effective ($0.01-$0.05/review) reviewer with thinking model support*
 
-[AI Code Review Action](https://github.com/marketplace/actions/ai-code-review-action) ![Stars](https://img.shields.io/github/stars/freeedcom/ai-codereviewer)  
+[2024] [AI Code Review Action](https://github.com/marketplace/actions/ai-code-review-action) ![Stars](https://img.shields.io/github/stars/freeedcom/ai-codereviewer)  
 *GitHub Actions integration for automated PR reviews*
 
 #### Static Analysis Platforms
 
-[SonarQube](https://github.com/SonarSource/sonarqube) ![Stars](https://img.shields.io/github/stars/SonarSource/sonarqube)  
+[2024] [SonarQube](https://github.com/SonarSource/sonarqube) ![Stars](https://img.shields.io/github/stars/SonarSource/sonarqube)  
 *Deep static analysis for security, bugs, and code smells with 5000+ rules*
 
-[Semgrep](https://github.com/semgrep/semgrep) ![Stars](https://img.shields.io/github/stars/semgrep/semgrep)  
+[2024] [Semgrep](https://github.com/semgrep/semgrep) ![Stars](https://img.shields.io/github/stars/semgrep/semgrep)  
 *Fast, customizable static analysis with rules as code in YAML format*
 
-[Qodo](https://github.com/Codium-ai/cover-agent) ![Stars](https://img.shields.io/github/stars/Codium-ai/cover-agent)  
+[2024] [Qodo](https://github.com/Codium-ai/cover-agent) ![Stars](https://img.shields.io/github/stars/Codium-ai/cover-agent)  
 *AI-powered code reviews with 20+ language support*
 
 #### Code Benchmarks
 
-[SWE-Bench](https://www.swebench.com/) - Real-world software engineering problems  
-[BigCodeBench](https://github.com/bigcode-project/bigcodebench) - Code generation evaluation  
-[HumanEval](https://github.com/openai/human-eval) - Programming problem solving
+[2024] [SWE-Bench](https://www.swebench.com/) - Real-world software engineering problems  
+[2024] [BigCodeBench](https://github.com/bigcode-project/bigcodebench) - Code generation evaluation  
+[2021] [HumanEval](https://github.com/openai/human-eval) - Programming problem solving
 
 ---
 
@@ -189,7 +187,7 @@ Key capabilities:
 [2506] [Quasar: Purpose-Built Programming Language for Code Actions](https://arxiv.org/abs/2506.12202)  
 *Python subset with automated parallelization and security features, 42% faster execution and 52% security improvement*
 
-[2406] [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/abs/2402.01030) [Code 💻](https://github.com/xingyaoww/code-act) - **ICML 2024**  
+[2402] [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/abs/2402.01030) [Code 💻](https://github.com/xingyaoww/code-act) - **ICML 2024**  
 *LLM agents that execute Python code for actions outperform JSON-based agents on interactive tasks with 20% higher success rates across 17 LLMs*
 
 [2508] [StackPilot: Autonomous Function Agents Without Specific Environments](https://arxiv.org/abs/2508.11665)  
@@ -201,7 +199,7 @@ Key capabilities:
 [2505] [Agent RL Scaling Law: Emergent Code Execution](https://arxiv.org/abs/2505.07773)  
 *LLMs spontaneously learn Python code execution through RL without explicit instruction, demonstrating natural scaling behavior*
 
-[2305] [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) [Code 💻](https://github.com/ysymyth/ReAct) - **ICLR 2023**  
+[2210] [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) [Code 💻](https://github.com/ysymyth/ReAct) - **ICLR 2023**  
 *Interleaving reasoning traces and task-specific actions for enhanced problem-solving*
 
 [2211] [PAL: Program-aided Language Models](https://arxiv.org/abs/2211.10435) [Code 💻](https://github.com/reasoning-machines/pal)  
@@ -232,7 +230,7 @@ Key capabilities:
 [2412] [AsyncLM: Asynchronous LLM Function Calling](https://arxiv.org/abs/2412.07017)  
 *Concurrent function generation and execution with 1.6x-5.4x latency reduction through interrupt mechanisms*
 
-[2307] [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) [Code 💻](https://github.com/ShishirPatil/gorilla)  
+[2305] [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) [Code 💻](https://github.com/ShishirPatil/gorilla)  
 *Fine-tuned LLM for API calls, outperforms GPT-4 on API selection and usage*
 
 ---
@@ -269,18 +267,18 @@ Key capabilities:
 [2507] [SpecVerify: Automatic Generation of Automated Verification Pipelines](https://arxiv.org/abs/2507.07576)  
 *LLM-driven tool generating executable verification code from natural language reporting requirements with 73% full score in medical case studies*
 
-[2509] [ACMG Variant Classification as Executable Code](https://www.acmg.net/)  
+[2509] [ACMG Variant Classification as Executable Code](https://www.acmg.net/) - **2024**  
 *American College of Medical Genetics classification guidelines translated to executable constraints with 94-99% clinical concordance*
 
 ### Healthcare Quality Metrics
 
-[2412] [CPIC Guidelines: Pharmacogenomics as Code](https://cpicpgx.org/)  
+[2412] [CPIC Guidelines: Pharmacogenomics as Code](https://cpicpgx.org/) - **2024**  
 *Clinical Pharmacogenetics Implementation Consortium guidelines for automated gene-drug interaction checking*
 
-[2404] [HEDIS Measures as Code](https://www.ncqa.org/hedis/)  
+[2404] [HEDIS Measures as Code](https://www.ncqa.org/hedis/) - **2024**  
 *Healthcare Effectiveness Data and Information Set automated quality measurement implementation*
 
-[2412] [CMS Quality Reporting Programs](https://www.cms.gov/medicare/quality/)  
+[2412] [CMS Quality Reporting Programs](https://www.cms.gov/medicare/quality/) - **2024**  
 *Medicare quality measures implemented as automated verification systems*
 
 ---
@@ -334,45 +332,10 @@ Key capabilities:
 [1804] [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635)  
 *First large-scale peer review dataset with 14K papers and review comments from ACL/NIPS/ICLR, enabling supervised learning approaches*
 
----
-
-### Resources & Community
-
-**Key Datasets**  
-- [PeerRead](https://github.com/allenai/PeerRead) - 14K papers with peer review comments (ACL 2018)
-- [ReviewAdvisor](https://github.com/neulab/ReviewAdvisor) - Automated review generation system code
-
-**Academic Events**  
-- AutoReview Workshop @ NeurIPS 2023 - Community forum on automated review systems
-
-**Current Adoption**  
-- ICLR 2024 piloted AI-assisted preliminary review screening
-- Technology best suited for: pre-screening submissions, assisting human reviewers with draft generation
-
-
----
-
-### Evaluation & Benchmarks
-
-[2506] [Can Large Language Models Be Trusted Paper Reviewers? A Feasibility Study](https://arxiv.org/abs/2506.17311)  
-*Comprehensive feasibility study evaluating LLM reliability and trustworthiness as paper reviewers across multiple dimensions*
-
-[2509] [Unveiling the Merits and Defects of LLMs in Automatic Review Generation for Scientific Papers](https://arxiv.org/abs/2509.19326)  
-*In-depth analysis of strengths and weaknesses in LLM-generated scientific paper reviews, identifying systematic biases*
-
-[2406] [RelevAI-Reviewer: A Benchmark on AI Reviewers for Survey Paper Relevance](https://arxiv.org/abs/2406.10294)  
-*Specialized benchmark for evaluating AI reviewers on survey paper relevance assessment and quality evaluation*
-
-[2306] [ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing](https://arxiv.org/abs/2306.00622)  
-*Exploratory analysis of using GPT models for academic paper reviewing with comprehensive human evaluation*
-
-[1804] [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635)  
-*First large-scale peer review dataset with 14K papers and review comments, enabling supervised learning approaches for review generation*
-
-[ACL 2022] Are Neural Review Generators Reliable?  
+[2022] [Are Neural Review Generators Reliable?](https://aclanthology.org/) - **ACL 2022**  
 *Analysis revealing systematic biases in neural review generation including generic praise and vague criticism patterns*
 
-[PNAS 2023] Human vs. AI: Bias in Peer Review  
+[2023] [Human vs. AI: Bias in Peer Review](https://www.pnas.org/) - **PNAS 2023**  
 *Comparative study showing AI review reduces gender/geographic bias but underperforms in novelty assessment compared to humans*
 
 ---
@@ -380,13 +343,13 @@ Key capabilities:
 ### Resources & Tools
 
 **Datasets**  
-- [PeerRead Dataset](https://github.com/allenai/PeerRead) - 14K papers with peer review comments
+- [2024] [PeerRead Dataset](https://github.com/allenai/PeerRead) - 14K papers with peer review comments
 
 **Evaluation Tools**  
-- [SciRepEval](https://github.com/) - Scientific review evaluation toolkit for assessing helpfulness, specificity, and fairness
+- [2024] [SciRepEval](https://github.com/) - Scientific review evaluation toolkit for assessing helpfulness, specificity, and fairness
 
 **Workshops**  
-- AutoReview Workshop @ NeurIPS 2023 - Community forum on automated review systems
+- [2023] AutoReview Workshop @ NeurIPS 2023 - Community forum on automated review systems
 
 ---
 
@@ -419,10 +382,10 @@ Key capabilities:
 [2103] [CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review](https://arxiv.org/abs/2103.06268)  
 *Expert-annotated dataset for legal contract understanding and automated review*
 
-**ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts** - ACL 2021  
+[2021] [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://aclanthology.org/) - **ACL 2021**  
 *Natural language inference dataset specifically designed for contract analysis*
 
-**LexGLUE: A Benchmark Dataset for Legal Language Understanding in English** - ACL 2022  
+[2022] [LexGLUE: A Benchmark Dataset for Legal Language Understanding in English](https://aclanthology.org/) - **ACL 2022**  
 *Comprehensive benchmark for legal language understanding tasks*
 
 [2010] [A Benchmark for Lease Contract Review](https://arxiv.org/abs/2010.10386)  
@@ -461,7 +424,7 @@ Key capabilities:
 [2402] [Can LLMs Reason with Rules? Logic Scaffolding for Stress-Testing and Improving LLMs](https://arxiv.org/abs/2402.11442) [Code 💻](https://github.com/xxxxx/ULogic)  
 *Logic scaffolding framework constructing ULogic rule base across five domains, revealing significant gaps in LLMs' logic understanding compared to human performance*
 
-[2410] [Neuro-Symbolic AI: Systematic Review](https://arxiv.org/abs/2501.05435)  
+[2501] [Neuro-Symbolic AI: Systematic Review](https://arxiv.org/abs/2501.05435)  
 *Comprehensive review of combining symbolic code execution with neural reasoning for rule-based systems*
 
 ### Instruction Following Evaluation
@@ -481,38 +444,38 @@ Key capabilities:
 
 ### Open-Source Projects
 
-[microsoft/autogen](https://github.com/microsoft/autogen) ![Stars](https://img.shields.io/github/stars/microsoft/autogen)  
+[2023] [microsoft/autogen](https://github.com/microsoft/autogen) ![Stars](https://img.shields.io/github/stars/microsoft/autogen)  
 *Framework for multi-agent conversations with code execution for review workflows*
 
-[All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) ![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands)  
+[2024] [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) ![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands)  
 *Open platform for AI software developers as generalist agents*
 
-[xingyaoww/code-act](https://github.com/xingyaoww/code-act) ![Stars](https://img.shields.io/github/stars/xingyaoww/code-act)  
+[2024] [xingyaoww/code-act](https://github.com/xingyaoww/code-act) ![Stars](https://img.shields.io/github/stars/xingyaoww/code-act)  
 *Executable Code Actions for Better LLM Agents (ICML 2024)*
 
-[HiTScI-MedInfo/TARexp](https://github.com/HiTScI-MedInfo/TARexp) ![Stars](https://img.shields.io/github/stars/HiTScI-MedInfo/TARexp)  
+[2022] [HiTScI-MedInfo/TARexp](https://github.com/HiTScI-MedInfo/TARexp) ![Stars](https://img.shields.io/github/stars/HiTScI-MedInfo/TARexp)  
 *Python framework for technology-assisted review experiments*
 
 ### Benchmarks & Datasets
 
 **Medical Review**:
-- [MEDEC](https://github.com/abachaa/MEDEC) - Medical error detection and correction
-- [PeerRead](https://github.com/allenai/PeerRead) - Peer review dataset
+- [2024] [MEDEC](https://github.com/abachaa/MEDEC) - Medical error detection and correction
+- [2018] [PeerRead](https://github.com/allenai/PeerRead) - Peer review dataset
 
 **Legal Review**:
-- [CUAD](https://www.atticusprojectai.org/cuad) - Contract understanding and analysis
-- LexGLUE - Legal language understanding benchmark
+- [2021] [CUAD](https://www.atticusprojectai.org/cuad) - Contract understanding and analysis
+- [2022] LexGLUE - Legal language understanding benchmark
 
 **Constraint Assessment**:
-- [RuleArena](https://github.com/xxxxx/RuleArena) - Rule-guided reasoning
-- [LogicGame](https://github.com/xxxxx/LogicGame) - Rule-based reasoning abilities
-- [ULogic](https://github.com/xxxxx/ULogic) - Logic scaffolding rule base
+- [2024] [RuleArena](https://github.com/xxxxx/RuleArena) - Rule-guided reasoning
+- [2024] [LogicGame](https://github.com/xxxxx/LogicGame) - Rule-based reasoning abilities
+- [2024] [ULogic](https://github.com/xxxxx/ULogic) - Logic scaffolding rule base
 
 ### Documentation
 
-**[AutoGen Documentation](https://microsoft.github.io/autogen/)** - Multi-agent conversations  
-**[OpenHands Documentation](https://docs.all-hands.dev/)** - Software development agents  
-**[LangGraph Documentation](https://langchain-ai.github.io/langgraph/)** - Agent orchestration
+[2024] **[AutoGen Documentation](https://microsoft.github.io/autogen/)** - Multi-agent conversations  
+[2024] **[OpenHands Documentation](https://docs.all-hands.dev/)** - Software development agents  
+[2024] **[LangGraph Documentation](https://langchain-ai.github.io/langgraph/)** - Agent orchestration
 
 ---
 
