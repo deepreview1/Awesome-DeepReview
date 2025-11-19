@@ -113,8 +113,6 @@ Key capabilities:
 [2503] [Challenges and Paths Towards AI for Software Engineering](https://arxiv.org/abs/2503.22625)  
 *Survey on agent-based approaches for code understanding, generation, and review with multi-agent coordination*
 
-[2411] [GitHub Copilot Code Review in Production](https://github.blog/changelog/2024-11-01-github-copilot-code-review)  
-*Production deployment serving 1M+ developers, 80% more comments per PR, 27% adoption by reviewers*
 
 ### AI Compliance
 
@@ -134,19 +132,13 @@ Key capabilities:
 [2411] [GitHub Copilot Code Review in Production](https://github.blog/changelog/2024-11-01-github-copilot-code-review)  
 *Production deployment serving 1M+ developers, 80% more comments per PR, 27% adoption by reviewers*
 
-[2503] [AI for Software Engineering: Comprehensive Survey](https://arxiv.org/abs/2503.22625)  
-*Agent-based approaches for code understanding, generation, and review with multi-agent coordination*
-
 [2503] [AI Reasoning Models for Code Analysis](https://arxiv.org/abs/2503.00483)  
 *Security vulnerability detection using code-executing agents with formal verification*
 
 [2404] [AutoCodeRover: Autonomous Bug Fixing](https://arxiv.org/abs/2404.05427) [Code 💻](https://github.com/nus-apr/auto-code-rover)  
 *Agent navigates codebase, identifies issues, and generates patches autonomously*
 
-#### Security & Vulnerability Detection
 
-[2503] [Adversarial Attacks on Multi-Agent Code Review](https://arxiv.org/abs/2503.12188)  
-*Demonstrates 58-90% attack success rates on multi-agent frameworks, critical for production security*
 
 #### Code Review Tools & Projects
 
@@ -332,9 +324,6 @@ Key capabilities:
 [1804] [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635)  
 *First large-scale peer review dataset with 14K papers and review comments from ACL/NIPS/ICLR, enabling supervised learning approaches*
 
-[2205] [Are Neural Review Generators Reliable?](https://aclanthology.org/) - **ACL 2022**  
-*Analysis revealing systematic biases in neural review generation including generic praise and vague criticism patterns*
-
 [2306] [Human vs. AI: Bias in Peer Review](https://www.pnas.org/) - **PNAS 2023**  
 *Comparative study showing AI review reduces gender/geographic bias but underperforms in novelty assessment compared to humans*
 
@@ -382,22 +371,15 @@ Key capabilities:
 [2103] [CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review](https://arxiv.org/abs/2103.06268)  
 *Expert-annotated dataset for legal contract understanding and automated review*
 
-[2111] [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://aclanthology.org/) - **ACL 2021**  
+[2111] [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://aclanthology.org/2021.findings-emnlp.164/) - **ACL 2021**  
 *Natural language inference dataset specifically designed for contract analysis*
 
-[2204] [LexGLUE: A Benchmark Dataset for Legal Language Understanding in English](https://aclanthology.org/) - **ACL 2022**  
+[2204] [LexGLUE: A Benchmark Dataset for Legal Language Understanding in English](https://aclanthology.org/2022.acl-long.297/) - **ACL 2022**  
 *Comprehensive benchmark for legal language understanding tasks*
 
 [2010] [A Benchmark for Lease Contract Review](https://arxiv.org/abs/2010.10386)  
 *Specialized benchmark for automated lease contract review and analysis*
 
-### Explainable Legal Classification
-
-[2311] [Explainable Text Classification Techniques in Legal Document Review](https://arxiv.org/abs/2311.09133)  
-*Comprehensive framework for explainable legal document classification without human-annotated snippets*
-
-[1912] [A Framework for Explainable Text Classification in Legal Document Review](https://arxiv.org/abs/1912.09501)  
-*Early framework establishing explainability principles for legal document review systems*
 
 ---
 
@@ -427,16 +409,7 @@ Key capabilities:
 [2501] [Neuro-Symbolic AI: Systematic Review](https://arxiv.org/abs/2501.05435)  
 *Comprehensive review of combining symbolic code execution with neural reasoning for rule-based systems*
 
-### Instruction Following Evaluation
 
-[2505] [A Multi-Dimensional Constraint Framework for Evaluating and Improving Instruction Following](https://arxiv.org/abs/2505.07591)  
-*Automated instruction generation pipeline with constraint expansion, conflict detection, and instruction rewriting for comprehensive evaluation*
-
-[2412] [RuleArena: Real-World Rule-Guided Reasoning](https://arxiv.org/abs/2412.08972)  
-*Evaluation in authentic scenarios requiring long-context understanding, logical reasoning, and accurate mathematical computation*
-
-[2408] [LogicGame: Rule Understanding and Multi-Step Planning](https://arxiv.org/abs/2408.15778)  
-*Assessment of rule comprehension, execution, and planning capabilities with deterministic intermediate steps for automatic verification*
 
 ---
 
