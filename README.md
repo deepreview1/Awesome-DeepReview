@@ -374,7 +374,7 @@ Key capabilities:
 [2111] [ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts](https://aclanthology.org/2021.findings-emnlp.164/) - **ACL 2021**  
 *Natural language inference dataset specifically designed for contract analysis*
 
-[2204] [LexGLUE: A Benchmark Dataset for Legal Language Understanding in English](https://aclanthology.org/2022.acl-long.297/) - **ACL 2022**  
+[2204] [LexGLUE: A Benchmark Dataset for Legal Language Understanding in English]([https://aclanthology.org/2022.acl-long.297/](https://arxiv.org/abs/2110.00976)) - **ACL 2022**  
 *Comprehensive benchmark for legal language understanding tasks*
 
 [2010] [A Benchmark for Lease Contract Review](https://arxiv.org/abs/2010.10386)  
