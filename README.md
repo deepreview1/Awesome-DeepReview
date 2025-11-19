@@ -437,7 +437,7 @@ Key capabilities:
 
 **Legal Review**:
 - [2103] [CUAD](https://www.atticusprojectai.org/cuad) - Contract understanding and analysis
-- [2204] LexGLUE - Legal language understanding benchmark
+- [2204] [LexGLUE](LexGLUE: A Ben) - Legal language understanding benchmark
 
 **Constraint Assessment**:
 - [2412] [RuleArena](https://github.com/xxxxx/RuleArena) - Rule-guided reasoning
