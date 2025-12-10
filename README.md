@@ -247,19 +247,19 @@ Key capabilities:
 [2509] [STARD-AI: Standards for Reporting Diagnostic Accuracy Studies - AI Extension](https://www.nature.com/articles/s41591-025-03953-8) - **Nature Medicine 2025**  
 *18-item checklist for transparent reporting of diagnostic AI studies, developed by 50+ international experts*
 
-[2501] [TRIPOD-LLM: Reporting Prediction Models Developed with LLMs](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287) - **PLOS Medicine 2025**  
+[2501] [TRIPOD-LLM: Reporting Prediction Models Developed with LLMs](https://www.nature.com/articles/s41591-024-03425-5) - **PLOS Medicine 2025**  
 *24-item framework requiring prompt disclosure, validation protocols, and bias assessment for clinical prediction models*
 
 
 ### Healthcare Quality Metrics
 
-[2412] [CPIC Guidelines: Pharmacogenomics as Code](https://cpicpgx.org/)  
+[2412] [CPIC Guidelines: Pharmacogenomics as Code](https://cpicpgx.org/guidelines/)  
 *Clinical Pharmacogenetics Implementation Consortium guidelines for automated gene-drug interaction checking*
 
-[2403] [HEDIS Measures as Code](https://www.ncqa.org/hedis/)  
+[2403] [HEDIS Measures as Code](https://www.ncqa.org/hedis/the-future-of-hedis/digital-measures/)  
 *Healthcare Effectiveness Data and Information Set automated quality measurement implementation*
 
-[2411] [CMS Quality Reporting Programs](https://www.cms.gov/medicare/quality/)  
+[2411] [CMS Quality Reporting Programs](https://www.cms.gov/medicare/quality/measures/cms-measures-inventory)  
 *Medicare quality measures implemented as automated verification systems*
 
 ---
