@@ -411,8 +411,6 @@ Key capabilities:
 [2402] [xingyaoww/code-act](https://github.com/xingyaoww/code-act) ![Stars](https://img.shields.io/github/stars/xingyaoww/code-act)  
 *Executable Code Actions for Better LLM Agents (ICML 2024)*
 
-[2202] [HiTScI-MedInfo/TARexp](https://github.com/HiTScI-MedInfo/TARexp) ![Stars](https://img.shields.io/github/stars/HiTScI-MedInfo/TARexp)  
-*Python framework for technology-assisted review experiments*
 
 ### Benchmarks & Datasets
 
