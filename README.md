@@ -56,7 +56,7 @@ Key capabilities:
 
 ### Tools & Frameworks
 
-[2202] [TARexp: A Python Framework for Technology-Assisted Review Experiments](https://arxiv.org/abs/2202.11827) [Code 💻](https://github.com/HiTScI-MedInfo/TARexp)  
+[2202] [TARexp: A Python Framework for Technology-Assisted Review Experiments](https://arxiv.org/abs/2202.11827) [Code 💻](https://github.com/eugene-yang/tarexp)  
 *Open source Python framework for conducting experiments on TAR algorithms with declarative workflow representations and state maintenance capabilities*
 
 [2401] **Deloitte Argus** - Intelligent Document Review Platform  
@@ -191,7 +191,7 @@ Key capabilities:
 [2211] [PAL: Program-aided Language Models](https://arxiv.org/abs/2211.10435) [Code 💻](https://github.com/reasoning-machines/pal)  
 *Offload reasoning steps to programmatic runtime for better accuracy on reasoning tasks*
 
-[2209] [Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) [Code 💻](https://github.com/google-research/google-research/tree/master/code_as_policies)  
+[2209] [Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) [Code 💻](https://code-as-policies.github.io/)  
 *Generate executable robot policies in Python for grounded language understanding*
 
 ### Agent Frameworks & Reasoning
@@ -377,7 +377,7 @@ Key capabilities:
 [2505] [A Multi-Dimensional Constraint Framework for Evaluating and Improving Instruction Following in Large Language Models](https://arxiv.org/abs/2505.07591)  
 *Multi-dimensional constraint framework with three patterns, four categories, and four difficulty levels, generating 1,200 code-verifiable test samples showing performance drop from 77.67% at Level I to 32.96% at Level IV*
 
-[2412] [RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios](https://arxiv.org/abs/2412.08972) [Code 💻](https://github.com/xxxxx/RuleArena)  
+[2412] [RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios](https://arxiv.org/abs/2412.08972) [Code 💻](https://github.com/skyriver-2000/RuleArena)  
 *Challenging benchmark covering airline baggage fees, NBA transactions, and tax regulations, revealing LLM struggles with rule identification and mathematical computation*
 
 [2408] [LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models](https://arxiv.org/abs/2408.15778)  
@@ -388,7 +388,7 @@ Key capabilities:
 
 ### Logic-Based Reasoning
 
-[2402] [Can LLMs Reason with Rules? Logic Scaffolding for Stress-Testing and Improving LLMs](https://arxiv.org/abs/2402.11442) [Code 💻](https://github.com/xxxxx/ULogic)  
+[2402] [Can LLMs Reason with Rules? Logic Scaffolding for Stress-Testing and Improving LLMs](https://arxiv.org/abs/2402.11442) [Code 💻](https://github.com/SiyuanWangw/ULogic)  
 *Logic scaffolding framework constructing ULogic rule base across five domains, revealing significant gaps in LLMs' logic understanding compared to human performance*
 
 [2501] [Neuro-Symbolic AI: Systematic Review](https://arxiv.org/abs/2501.05435)  
