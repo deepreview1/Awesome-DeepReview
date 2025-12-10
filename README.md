@@ -256,11 +256,6 @@ Key capabilities:
 [2501] [TRIPOD-LLM: Reporting Prediction Models Developed with LLMs](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287) - **PLOS Medicine 2025**  
 *24-item framework requiring prompt disclosure, validation protocols, and bias assessment for clinical prediction models*
 
-[2507] [SpecVerify: Automatic Generation of Automated Verification Pipelines](https://arxiv.org/abs/2507.07576)  
-*LLM-driven tool generating executable verification code from natural language reporting requirements with 73% full score in medical case studies*
-
-[2409] [ACMG Variant Classification as Executable Code](https://www.acmg.net/)  
-*American College of Medical Genetics classification guidelines translated to executable constraints with 94-99% clinical concordance*
 
 ### Healthcare Quality Metrics
 
