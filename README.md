@@ -430,7 +430,7 @@ Key capabilities:
 ### Documentation
 
 [2308] **[AutoGen Documentation](https://microsoft.github.io/autogen/)** - Multi-agent conversations  
-[2407] **[OpenHands Documentation](https://docs.all-hands.dev/)** - Software development agents  
+[2407] **[OpenHands Documentation](https://docs.openhands.dev/overview/introduction)** - Software development agents  
 [2401] **[LangGraph Documentation](https://langchain-ai.github.io/langgraph/)** - Agent orchestration
 
 ---
