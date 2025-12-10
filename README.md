@@ -122,9 +122,6 @@ Key capabilities:
 [2507] [FUTURE-AI: International Framework for Trustworthy Medical AI](https://www.nature.com/articles/s41591-025-03951-w) - **Nature Medicine 2025**  
 *30 recommendations across fairness, universality, traceability, usability, robustness, and explainability from 400+ stakeholders*
 
-[2505] [FDA AI Medical Device Guidance: Lifecycle Management](https://www.fda.gov/regulatory-information/search-fda-guidance-documents) - **FDA 2025**  
-*Comprehensive framework requiring Algorithm Change Protocols, predetermined change control plans, and impact assessment*
-
 ### Software Code Review
 
 #### Code Review Systems & Agents
