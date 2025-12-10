@@ -423,9 +423,9 @@ Key capabilities:
 - [2204] [LexGLUE](https://aclanthology.org/2022.acl-long.297/) - Legal language understanding benchmark
 
 **Constraint Assessment**:
-- [2412] [RuleArena](https://github.com/xxxxx/RuleArena) - Rule-guided reasoning
-- [2408] [LogicGame](https://github.com/xxxxx/LogicGame) - Rule-based reasoning abilities
-- [2402] [ULogic](https://github.com/xxxxx/ULogic) - Logic scaffolding rule base
+- [2412] [RuleArena](https://github.com/skyriver-2000/RuleArena) - Rule-guided reasoning **ACL 2025**
+- [2408] [LogicGame](https://github.com/hypatiaalegra/logicgame-data) - Rule-based reasoning abilities **ACL 2025**
+- [2402] [ULogic](https://github.com/SiyuanWangw/ULogic) - Logic scaffolding rule base **ACL 2024**
 
 ### Documentation
 
