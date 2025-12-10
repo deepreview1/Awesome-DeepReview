@@ -119,7 +119,6 @@ Key capabilities:
 [2510] [AIReg-Bench: Benchmarking Language Models That Assess AI Regulation Compliance](https://arxiv.org/abs/2510.01474)  
 *Benchmark for evaluating language models' ability to assess AI regulation compliance across different jurisdictions*
 
-
 ### Software Code Review
 
 #### Code Review Systems & Agents
