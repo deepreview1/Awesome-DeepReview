@@ -170,7 +170,7 @@ Key capabilities:
 
 ### Code Actions & Executable Agents
 
-[2506] [Quasar: Purpose-Built Programming Language for Code Actions](https://arxiv.org/abs/2506.12202)  
+[2506] [A Fast, Reliable, and Secure Programming Language for LLM Agents with Code Actions](https://arxiv.org/abs/2506.12202)  
 *Python subset with automated parallelization and security features, 42% faster execution and 52% security improvement*
 
 [2402] [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/abs/2402.01030) [Code 💻](https://github.com/xingyaoww/code-act) - **ICML 2024**  
