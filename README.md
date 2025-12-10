@@ -119,8 +119,6 @@ Key capabilities:
 [2510] [AIReg-Bench: Benchmarking Language Models That Assess AI Regulation Compliance](https://arxiv.org/abs/2510.01474)  
 *Benchmark for evaluating language models' ability to assess AI regulation compliance across different jurisdictions*
 
-[2507] [FUTURE-AI: International Framework for Trustworthy Medical AI](https://www.nature.com/articles/s41591-025-03951-w) - **Nature Medicine 2025**  
-*30 recommendations across fairness, universality, traceability, usability, robustness, and explainability from 400+ stakeholders*
 
 ### Software Code Review
 
