@@ -323,8 +323,7 @@ Key capabilities:
 **Evaluation Tools**  
 - [2403] [SciRepEval](https://github.com/) - Scientific review evaluation toolkit for assessing helpfulness, specificity, and fairness
 
-**Workshops**  
-- [2312] AutoReview Workshop @ NeurIPS 2023 - Community forum on automated review systems
+
 
 ---
 
