@@ -122,17 +122,17 @@ Key capabilities:
 ### Software Code Review
 
 #### Code Review Systems & Agents
+[2107] [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)  
+*Introduces the Codex model (a GPT-3 derivative) trained on public GitHub repositories, the foundation for Code Agent*
 
-[2411] [GitHub Copilot Code Review in Production](https://github.blog/changelog/2024-11-01-github-copilot-code-review)  
-*Production deployment serving 1M+ developers, 80% more comments per PR, 27% adoption by reviewers*
+[2302] [Research: quantifying GitHub Copilot’s impact on developer productivity and happiness](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)  
+*Controlled experiment shows developers using Copilot complete tasks 55.8% faster and rate their happiness higher*
 
-[2503] [AI Reasoning Models for Code Analysis](https://arxiv.org/abs/2503.00483)  
-*Security vulnerability detection using code-executing agents with formal verification*
+[2402] [Executable Code Actions Elicit Better LLM Agents Code](https://arxiv.org/abs/2402.01030)
+*Proposes using executable Python code to consolidate agent actions into a unified space, achieving up to 20% higher success rates on complex multi-tool tasks*
 
-[2404] [AutoCodeRover: Autonomous Bug Fixing](https://arxiv.org/abs/2404.05427) [Code 💻](https://github.com/nus-apr/auto-code-rover)  
-*Agent navigates codebase, identifies issues, and generates patches autonomously*
-
-
+[2510] [Introducing Cursor 2.0 and Composer](https://cursor.com/cn/blog/2-0)
+Official introduction to the philosophy behind Cursor 2.0, designing AI as a core feature of the IDE rather than a plugin.
 
 #### Code Review Tools & Projects
 
