@@ -313,9 +313,6 @@ Key capabilities:
 [1804] [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635)  
 *First large-scale peer review dataset with 14K papers and review comments from ACL/NIPS/ICLR, enabling supervised learning approaches*
 
-[2306] [Human vs. AI: Bias in Peer Review](https://www.pnas.org/) - **PNAS 2023**  
-*Comparative study showing AI review reduces gender/geographic bias but underperforms in novelty assessment compared to humans*
-
 ---
 
 ### Resources & Tools
