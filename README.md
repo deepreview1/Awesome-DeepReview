@@ -132,7 +132,7 @@ Key capabilities:
 *Proposes using executable Python code to consolidate agent actions into a unified space, achieving up to 20% higher success rates on complex multi-tool tasks*
 
 [2510] [Introducing Cursor 2.0 and Composer](https://cursor.com/cn/blog/2-0)
-Official introduction to the philosophy behind Cursor 2.0, designing AI as a core feature of the IDE rather than a plugin.
+*Official introduction to the philosophy behind Cursor 2.0, designing AI as a core feature of the IDE rather than a plugin*
 
 #### Code Review Tools & Projects
 
